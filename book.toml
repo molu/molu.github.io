@@ -1,0 +1,15 @@
+[book]
+authors = ["molu"]
+language = "en"
+multilingual = false
+src = "src"
+title = "molu.dev"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+cname = "molu.dev"
+input-404 = "not-found.md"  
+no-section-label = true
+git-repository-url = "https://github.com/molu/molu.github.io"
+git-repository-icon = "fa-github"
