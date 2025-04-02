@@ -4,7 +4,14 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: pl
+
+# Polyglot
+languages: ["pl", "en"]
+default_lang: "pl"
+exclude_from_localization: ["assets", "javascript", "_plugins", "_sass"]
+parallel_localization: false
+lang_from_path: true
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Warsaw
@@ -198,15 +205,15 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
+  - jekyll-theme-chirpy.gemspec
   - docs
   - tools
   - README.md
   - LICENSE
   - purgecss.js
   - rollup.config.js
-  - "package*.json"
+  - package.json
+  - package-lock.json
 
 jekyll-archives:
   enabled: [categories, tags]
