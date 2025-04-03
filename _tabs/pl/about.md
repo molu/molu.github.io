@@ -2,7 +2,7 @@
 layout: page
 icon: fas fa-info-circle
 order: 4
-title: About
+title: O mnie
 page_id: about
-permalink: /about/
+permalink: /o-mnie/
 ---

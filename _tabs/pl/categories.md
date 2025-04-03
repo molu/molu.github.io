@@ -2,7 +2,7 @@
 layout: categories
 icon: fas fa-stream
 order: 1
-title: Categories
+title: Kategorie
 page_id: categories
-permalink: /categories/
+permalink: /kategorie/
 ---

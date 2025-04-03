@@ -39,20 +39,9 @@
       {% endfor %}
     </ul>
 
-    <!-- language switcher -->
     <div>
-      <ul style="list-style-type: none">
-      {% for lang in site.languages %}
-      <li>
-        <i class="fa-regular fa-flag" style="margin: 10px"></i> 
-        <a class="lang-name" {% static_href %}href="{{ site.baseurl }}{% if lang != site.default_lang %}/{{ lang }}{% endif %}{{ page.url }}"{% endstatic_href %}>
-          {{ site.data.locales[lang].language }}
-        </a>
-      </li>
-      {% endfor %}
-      </ul>
+      {% include lang-switcher.html %}
     </div>
-
   </nav>
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">

@@ -6,5 +6,5 @@
 {% elsif site.data.locales[site.active_lang] %}
   {% assign lang = site.active_lang %}
 {% else %}
-  {% assign lang = 'en' %}
+  {% assign lang = site.default_lang %}
 {% endif %}

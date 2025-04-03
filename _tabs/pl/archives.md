@@ -2,7 +2,7 @@
 layout: archives
 icon: fas fa-archive
 order: 3
-title: Archies
+title: Archiwum
 page_id: archives
-permalink: /archives/
+permalink: /archiwum/
 ---
