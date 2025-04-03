@@ -3,6 +3,7 @@ title: Jekyll Polyglot - permalinki w różnych językach
 permalink: /jekyll-polyglot-permalinki-w-roznych-jezykach
 lang: pl
 page_id: translate-permalinks
+category: tips
 ---
 Aby zainstalować plugin `jekyll-polyglot`, dodaj do `Gemfile`:
 

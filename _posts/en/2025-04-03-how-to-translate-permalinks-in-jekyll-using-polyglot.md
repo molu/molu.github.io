@@ -3,6 +3,7 @@ title: How to translate permalinks in Jekyll using Polyglot
 permalink: /how-to-translate-permalinks-in-jekyll-using-polyglot
 lang: en
 page_id: translate-permalinks
+category: tips
 ---
 To install the `jekyll-polyglot` plugin - add the following to your `Gemfile`:
 
