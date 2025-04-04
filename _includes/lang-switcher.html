@@ -5,7 +5,7 @@
   <li>
     <i class="fa-regular fa-flag" style="margin: 5px"></i> 
     <a class="lang-name" {% static_href %}href="{{ site.baseurl }}{% if lang != site.default_lang %}/{{lang}}{% endif %}{{ page.permalink_lang[lang] | default: '/' }}"{% endstatic_href %}>
-      {{ site.data.locales[lang].language }}
+      {{ site.data.locales[lang].name }}
     </a>
   </li>
 {% endfor %}

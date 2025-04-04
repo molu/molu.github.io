@@ -1,7 +1,7 @@
 # The layout text of site
 
 # ----- Commons label -----
-language: Polski
+name: Polski
 
 layout:
   post: Wpis

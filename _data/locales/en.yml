@@ -1,7 +1,7 @@
 # The layout text of site
 
 # ----- Commons label -----
-language: English
+name: English
 
 layout:
   post: Post
