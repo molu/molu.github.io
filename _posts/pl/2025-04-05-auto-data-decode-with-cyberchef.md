@@ -10,7 +10,7 @@ Operacja `Magic` dostępna w narzędziu [CyberChef](https://gchq.github.io/Cyber
 
 Dane wejściowe w tym przykładzie zostały najpierw zakodowane w hex, następnie zaszyfrowane przy użyciu XOR z kluczem `0xff`, a na końcu zakodowane w Base64 - narzędzie automatycznie wykryło wszystkie trzy zastosowane operacje w ciągu niecałych 2 sekund:
 
-![CyberChef Magic operation](/assets/img/2025-04-05_cyberchef-magic.png){: .shadow }
+![CyberChef Magic operation](/assets/img/2025-04-05_cyberchef-magic.webp){: .shadow }
 
 > Inne operacje dostępne w narzędziu również są przydatne w trakcie testów bezpieczeńtwa
 {: .prompt-tip }
