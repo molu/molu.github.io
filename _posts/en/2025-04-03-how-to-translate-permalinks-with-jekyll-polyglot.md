@@ -1,5 +1,5 @@
 ---
-title: How to translate permalinks in Jekyll using Polyglot
+title: How to translate permalinks with Jekyll Polyglot
 permalink: /how-to-translate-permalinks-in-jekyll-using-polyglot
 lang: en
 page_id: translate-permalinks
